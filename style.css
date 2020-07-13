@@ -25,7 +25,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #30292d;
+
 }
 
 li {
@@ -45,6 +45,21 @@ li a:hover {
   background-color: #ff9966;
   text-decoration: none;
   color: #000000;
+}
+.burger {
+	display: none;
+}
+.burger div{
+	width: 25px;
+	height: 5px;
+	background-color: rgb(226, 226, 226);
+	margin: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+	body {
+		display: none;
+	}
 }
 
 
