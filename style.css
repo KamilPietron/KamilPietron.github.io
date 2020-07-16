@@ -51,7 +51,7 @@ nav {
 	transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	body {
 		overflow-x: hidden;
 	}
@@ -93,12 +93,6 @@ nav {
 
 
 
-@media screen and (max-width: 1024px) {
-
-.nav-links {
-	width: 70%;
-	}
-}
 
 .toggle .line1 {
 	transform: rotate(-45deg) translate(-5px,6px);
@@ -114,7 +108,7 @@ nav {
 
 
 
-
+/* Navbar underline on hover */
 ul li a {
 	position: relative;
 	color: #ecf0f1;
