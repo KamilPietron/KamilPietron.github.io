@@ -9,7 +9,7 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	min-height: 8vh;
-	background-color: #FA8072;
+	background-color: #1d1817;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -23,7 +23,7 @@ nav {
 .nav-links {
 	display: flex;
 	justify-content: space-around;
-	width: 30%;
+	width: 35%;
 }
 
 .nav-links {
@@ -92,10 +92,11 @@ nav {
 }
 
 
+
 @media screen and (max-width: 1024px) {
 
 .nav-links {
-	width: 60%;
+	width: 70%;
 	}
 }
 
@@ -113,35 +114,47 @@ nav {
 
 
 
-ul li {
-  padding: 6px 0;
-}
+
 ul li a {
-  position: relative;
-  display: block;
-  text-decoration: none;
-  font-size: 2rem;;
-  color: #ecf0f1;
-  text-transform: uppercase;
-  padding: 4px 0;
-  transition: 0.5s;
+	position: relative;
+	color: #ecf0f1;
+	text-transform: uppercase;
+	padding: 4px 0;
+	transition: 0.5s;
 }
 ul li a::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 3px;
-  top: 100%;
-  left: 0;
-  background: #c9cbb3;
-  transition: transform 0.5s;
-  transform: scaleX(0);
-  transform-origin: right;
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 3px;
+	top: 100%;
+	left: 0;
+	background: #c9cbb3;
+	transition: transform 0.5s;
+	transform: scaleX(0);
+	transform-origin: right;
 }
 ul li a:hover {
-  color: #c9cbb3;
+	color: #c9cbb3;
 }
 ul li a:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
+	transform: scaleX(1);
+	transform-origin: left;
 }
+
+/* Background image */
+body {
+	background-image: url(bg1.jpg); 
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-attachment: fixed;       
+	webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%; 
+  	 
+}
+
+
