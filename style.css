@@ -20,14 +20,22 @@ body {
 	overflow-x: hidden
   	 
 }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
 
 .icon {
 	margin: 0 40px 0 0;
+	color: #000000;
 }
 .icon:hover {
 	opacity: 0.7;
 	transition: 0.5s;
-	color: #c9cbb3;
+	color: #ffffff;
 }
 
 nav {
@@ -35,7 +43,6 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	min-height: 8vh;
-	background-color: #1d1817;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -57,7 +64,7 @@ nav {
 }
 
 .nav-links a{
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 	letter-spacing: 3px;
 	font-weight: bold;
@@ -72,7 +79,7 @@ nav {
 .burger div{
 	width: 25px;
 	height: 3px;
-	background-color: #ffffff;
+	background-color: #000000;
 	margin: 5px;
 	transition: all 0.3s ease;
 }
@@ -88,7 +95,7 @@ nav {
 		 right: 0px;
 		 height: 92vh;
 		 top: 8vh;
-		 background-color: #1d1817;
+		 background-color: #808080;
 		 display: flex;
 		 flex-direction: column;
 		 align-items: center;
@@ -152,7 +159,7 @@ nav {
 /* Navbar underline on hover*/
 ul li a {
 	position: relative;
-	color: #ecf0f1;
+	color: #ffffff;
 	text-transform: uppercase;
 	padding: 4px 0;
 	transition: 0.5s;
@@ -164,17 +171,21 @@ ul li a::after {
 	height: 3px;
 	top: 100%;
 	left: 0;
-	background: #c9cbb3;
+	background: #ffffff;
 	transition: transform 0.5s;
 	transform: scaleX(0);
 	transform-origin: right;
 }
 ul li a:hover {
-	color: #c9cbb3;
+	color: #ffffff;
 }
 ul li a:hover::after {
 	transform: scaleX(1);
 	transform-origin: left;
 }
+
+
+
+
 
 
