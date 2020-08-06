@@ -4,7 +4,31 @@
 	box-sizing: border-box;
 }
 
+/* Background image */
+body {
+	background-image: url(bg1.jpg); 
+	background-repeat: no-repeat; 
+	background-position: center center;
+	background-attachment: fixed;       
+	webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw; 
+	opacity: 0.95;
+	overflow-x: hidden
+  	 
+}
 
+.icon {
+	margin: 0 40px 0 0;
+}
+.icon:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+	color: #c9cbb3;
+}
 
 nav {
 	display: flex;
@@ -55,6 +79,7 @@ nav {
 
 @media screen and (max-width: 768px) {
 	body {
+		background-image: url(bg_mobile.jpg);
 		overflow-x: hidden;
 		max-width: 100%
 	}
@@ -98,6 +123,7 @@ nav {
 
 @media screen and (max-width: 1024px) {
 	body {
+		background-image: url(bg_mobile.jpg);
 		overflow-x: hidden;
 		max-width: 100%
 	}
@@ -151,47 +177,4 @@ ul li a:hover::after {
 	transform-origin: left;
 }
 
-/* Background image */
-body {
-	background-image: url(bg1.jpg); 
-	background-repeat: no-repeat; 
-	background-position: center;
-	background-attachment: fixed;       
-	webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 100vh;
-	width: 100vw; 
-	opacity: 0.95;
-	overflow-x: hidden
-  	 
-}
 
-.icon {
-	margin: 0 40px 0 0;
-}
-.icon:hover {
-	opacity: 0.7;
-	transition: 0.5s;
-	color: #c9cbb3;
-}
-
-
-/* Footer 
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-}
-
-.center-footer {
-display: flex;
-justify-content: center;
-}
-
-*/
