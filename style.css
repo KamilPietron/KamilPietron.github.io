@@ -20,12 +20,14 @@ body {
 	overflow-x: hidden
   	 
 }
-.center {
+.center-button {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 600px;
+  font-size: 16px;
 }
+
 
 
 .icon {
@@ -84,18 +86,21 @@ nav {
 	transition: all 0.3s ease;
 }
 
+
+/* MOBILE */
 @media screen and (max-width: 768px) {
 	body {
 		background-image: url(bg_mobile.jpg);
 		overflow-x: hidden;
 		max-width: 100%
 	}
+
 	.nav-links {
 		position: absolute;
 		 right: 0px;
 		 height: 92vh;
 		 top: 8vh;
-		 background-color: #808080;
+		 background-color: #ffffff;
 		 display: flex;
 		 flex-direction: column;
 		 align-items: center;
@@ -127,7 +132,7 @@ nav {
 }
 
 
-
+/* TABLET */
 @media screen and (max-width: 1024px) {
 	body {
 		background-image: url(bg_mobile.jpg);
